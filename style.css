@@ -5,9 +5,15 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
     background-color: rgb(71, 68, 68);
 }
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
 
 /* End of Base reset */
 
@@ -17,10 +23,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
     /* border: 1px solid yellow; */
     position: fixed;
-    width: 100%
+    width: 100%;
     
 }
 
@@ -35,41 +40,49 @@ li, a, button {
 
 .logo {
     cursor: pointer;
-    width: 160px;
+    width: 100px;
     height: auto;
     /* border: 1px solid black; */
 }
 
 .nav-links {
-    list-style: none;
+    
     display: flex;
-    /* border : 1px solid red */
-}
-
-.nav-links li {
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
+    justify-content: flex-end;
     /* border : 1px solid red; */
-    
+    width : 100%;
+    top: 0;
+    left: 0;
 }
 
-.nav-links li a {
+.nav-list {
+    display:flex;
+    margin-right: 2em;
+    list-style: none;
+    /* border: 1px solid  */
+}
+.nav-list a {
+    display: block;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    /* border : 1px solid red; */
     transition: 0.3s ease 0s;
-    
 }
 
-.nav-links li a:hover {
+
+
+.nav-list a:hover {
     color: rgb(209, 155, 6);
 }
 
 .cart-button img {
-    width: 40px;
+    width: 20px;
     background-color: rgba(209, 155, 6, 1);
     border-radius: 50px;
-    padding: 8px;
-    display: flex;
-    align-items: center;
+    padding: 0.6rem;
+    
+    
+    transition: 0.3s ease 0s;
     /* height: auto;
     margin-left: 250px; */
 }
@@ -79,16 +92,15 @@ li, a, button {
 }
 
 button {
-    padding: 9px 25px;
+    padding: 4px 10px;
     background-color: rgba(209, 155, 6, 1);
     color: black;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s ease 0s;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
+    
+    
 }
 
 button:hover {
@@ -104,27 +116,43 @@ button:hover {
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr ;
     border : 1px solid blue;
-    margin: 0px auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: rgba(209, 155, 6, 0.8);
+
 }
 
+.jumbotron img {
+    width: 100%
+}
 /* end of jumbotron */
-.catalogue {
+.testimony {
     display : grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr ;
     border : 1px solid blue;
     margin: 0px auto;
-    
+    height: auto;
+    background-color: rgba(209, 155, 6, 0.8);
 }
 
-#catalogue p {
+.testimony img {
+    width: 100%
+}
+
+#testimony p {
     display :flex;
     justify-content: center;
     font-size: 3em
+    
 }
 
-#contact-us p {
+#contact-us {
+    height: auto;
+}
+
+#contact-us-title {
     display :flex;
     justify-content: center;
     font-size: 3em
@@ -133,8 +161,16 @@ button:hover {
 .contact-link {
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
-.credit {
-    font-size: 1px;
+.contact-link a:hover  {
+    color: rgb(209, 155, 6);
+    transition: 0.3s ease 0s;
+}
+
+#credit {
+    display:flex;
+    justify-content: center;
+    color: rgb(209, 155, 6);
 }
