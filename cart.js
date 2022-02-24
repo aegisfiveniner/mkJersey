@@ -1,4 +1,19 @@
-'use strict'
+function submitCustom(custom){
+    custom.preventDefault()
+    let customnya = document.getElementsByClassName('boxe').value
+    return customnya
+}
+function submitSize(size){
+    size.preventDefault()
+    let ukuran = document.getElementsByClassName('box').value
+    return ukuran 
+}
+
+function submitBahan(bahan){
+    bahan.preventDefault()
+    let bahannya = document.getElementsByClassName('boxed').value
+    return bahannya
+}
 
 const rupiah = (number)=>{
     return new Intl.NumberFormat("id-ID", {
