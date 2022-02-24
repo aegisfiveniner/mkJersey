@@ -144,8 +144,8 @@ button:hover {
 #testimony p {
     display :flex;
     justify-content: center;
-    font-size: 3em
-    
+    font-size: 3em;
+    color: rgba(209, 155, 6, 0.8);
 }
 
 #contact-us {
@@ -155,13 +155,16 @@ button:hover {
 #contact-us-title {
     display :flex;
     justify-content: center;
-    font-size: 3em
+    font-size: 3em;
+    color: rgba(209, 155, 6, 0.8);
 }
 
 .contact-link {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin: 50px;
+    
 }
 
 .contact-link a:hover  {
@@ -173,4 +176,5 @@ button:hover {
     display:flex;
     justify-content: center;
     color: rgb(209, 155, 6);
+    margin-top: 100px;
 }
