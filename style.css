@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(71, 68, 68);
 }
 
 li, a, button {
@@ -19,12 +18,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
+    background-color: rgb(65, 65, 70);
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
 }
 
 .logo {
     cursor: pointer;
-    width: 160px;
+    width: 50px;
     height: auto;
 }
 
@@ -48,7 +51,6 @@ header {
 .cart-button img {
     width: 25px;
     height: auto;
-    margin-left: 250px;
 }
 
 button {
@@ -64,16 +66,4 @@ button {
 
 button:hover {
     background-color: rgba(209, 155, 6, 0.8);
-}
-
-.drop-down ul {
-    display: none;
-    color: white;
-    background-color: black;
-    opacity: 0.8;
-    border-radius: 50px;
-}
-
-.drop-down:hover ul {
-    display: block;
 }
