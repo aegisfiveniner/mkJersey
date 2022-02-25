@@ -1,191 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono&display=swap');
-/* #24252a */
-/* Base Reset */
-
+/* General */
 * {
-    margin: 0px;
-    padding: 0px;
-    
-    background-color: rgb(71, 68, 68);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("asdf.jpg");
+  background-size: 80%;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%
+h3{
+  background-color: #d4d7dfb8;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  color: rgb(4, 78, 75); 
+  font-family: 'Trocchi', serif; 
+  font-size: 20px; 
+  font-weight: bold; 
+  line-height: 48px; 
+  display: block;
 }
 
-
-/* End of Base reset */
-
-/* Start of Header */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid yellow; */
-    position: fixed;
-    width: 100%;
-    
+h1{
+  color: rgb(4, 78, 75); 
+  font-family: 'Trocchi', serif; 
+  font-size: 20px; 
+  font-weight: bold; 
+  line-height: 48px; 
+  display: block;
+  
 }
 
-li, a, button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ecf0f1;
-    text-decoration: none;
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;  
 }
 
-
-.logo {
-    cursor: pointer;
-    width: 100px;
-    height: auto;
-    /* border: 1px solid black; */
+/* Container */
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+.box-container {
+  background-color: #d4d7dfb8;
+  padding: 40px;
+  border-radius: 20px;
+  margin: 100px;
 }
 
-.nav-links {
-    
-    display: flex;
-    justify-content: flex-end;
-    /* border : 1px solid red; */
-    width : 100%;
-    top: 0;
-    left: 0;
+/* Text Style */
+.text-center {
+  text-align: center;
 }
-
-.nav-list {
-    display:flex;
-    margin-right: 2em;
-    list-style: none;
-    /* border: 1px solid  */
+.title {
+   color: rgb(4, 78, 75); 
+   font-family: 'Trocchi', serif; 
+   font-size: 40px; 
+   font-weight: bold; 
+   line-height: 48px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
-.nav-list a {
-    display: block;
-    align-items: center;
-    padding: 2rem 0.5rem;
-    /* border : 1px solid red; */
-    transition: 0.3s ease 0s;
-}
-
-
-
-.nav-list a:hover {
-    color: rgb(209, 155, 6);
-}
-
-.cart-button img {
-    width: 20px;
-    background-color: rgba(209, 155, 6, 1);
-    border-radius: 50px;
-    padding: 0.6rem;
-    
-    
-    transition: 0.3s ease 0s;
-    /* height: auto;
-    margin-left: 250px; */
-}
-
-.cart-button:hover img {
-    background-color: rgba(209, 155, 6, 0.8);
-}
-
-button {
-    padding: 4px 10px;
-    background-color: rgba(209, 155, 6, 1);
-    color: black;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.3s ease 0s;
-    
-    
-}
-
-button:hover {
-    background-color: rgba(209, 155, 6, 0.8);
-}
-
-/* End of header */
-
-/* start of jumbotron */
-
-.jumbotron {
-    display : grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr ;
-    border : 1px solid blue;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    background-color: rgba(209, 155, 6, 0.8);
-
-}
-
-.jumbotron img {
-    width: 100%
-}
-/* end of jumbotron */
-
-/* start of testimony */
-.testimony {
-    display : grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr ;
-    border : 1px solid blue;
-    margin: 0px auto;
-    height: auto;
-    background-color: rgba(209, 155, 6, 0.8);
-}
-
-.testimony img {
-    width: 100%
-}
-
-#testimony p {
-    display :flex;
-    justify-content: center;
-    font-size: 3em;
-    color: rgba(209, 155, 6, 0.8);
-}
-
-/* end of testimony */
-
-/* start of contact us */
-
-#contact-us {
-    height: auto;
-}
-
-#contact-us-title {
-    display :flex;
-    justify-content: center;
-    font-size: 3em;
-    color: rgba(209, 155, 6, 0.8);
-}
-
-.contact-link {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 50px;
-    
-}
-
-.contact-link a:hover  {
-    color: rgb(209, 155, 6);
-    transition: 0.3s ease 0s;
-}
-
-#credit {
-    display:flex;
-    justify-content: center;
-    color: rgb(209, 155, 6);
-    margin-top: 100px;
-}
-
-/* end of contact us */
-
-/* CART HTML */
 
