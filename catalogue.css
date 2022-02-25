@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
+  padding: 0;
   text-align: center;
+  background-color: rgb(71, 68, 68);
 
 }
 hr {
@@ -16,25 +18,123 @@ h1 {
 
 }
 
+#judul-bahan {
+  color: white
+}
+
 .cata {
-  background-color: #362706;
-  color: white;
+  background-color: rgba(209, 155, 6, 0.8);
+  color: rgb(71, 68, 68);
   height: 80px;
 }
-.boxed, .box {
+.box1 {
   background-color: #E9E5D6;
+  display: flex;
+  justify-content: space-around;
 }
 
-.boxe, .bo{
+.box2 {
   background-color: #ACB992;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
 }
 
-#bahan, #model{
-   text-align: left;
-   margin-left: 42%;
+#bahan label{
+  margin: 0.2rem;
+  /* border: 1px solid red; */
+}
+
+#model{
+  width: 100%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: rgba(209, 155, 6, 0.8);
+  border: 1px solid rgb(71, 68, 68);
+}
+
+#model label {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  
+}
+
+#model h3 {
+  display: flex;
+  justify-content: center;
 }
 
 #size {
+  width: 100%;
   text-align: left;
-  margin-left: 47%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: rgba(209, 155, 6, 0.8);
+  border: 1px solid rgb(71, 68, 68);
+  
+}
+
+#size h3 {
+  display: flex;
+  justify-content: center;
+}
+
+#size label {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  
+  
+}
+
+#bahan {
+  display: flex;
+}
+
+
+ #bahan img {
+   width: 100px;
+   height: auto;
  }
+
+ #tombol-pilih {
+  padding: 4px 10px;
+  background-color: rgba(209, 155, 6, 1);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+  margin: 1rem;
+  
+  
+}
+
+#tombol-pilih:hover {
+  background-color: rgba(209, 155, 6, 0.8);
+}
+
+#tombol-lanjut {
+  padding: 4px 10px;
+  background-color: rgba(209, 155, 6, 1);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+  margin: 1rem;
+  
+  
+}
+
+#tombol-lanjut:hover {
+  background-color: rgba(209, 155, 6, 0.8);
+}

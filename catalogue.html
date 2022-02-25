@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalogue.css">
     <title>Catalogue</title>
 
 </head>
@@ -16,7 +16,7 @@
             <h1>Catalogue</h1>
         </center>
     </div>
-    <h3>Bahan</h3>
+    
     <form onsubmit="pilihProperti(event)">
         <div>
             <label for="desain">Pilih Desain</label>
@@ -24,33 +24,34 @@
               
             </select> 
         </div>
-        <div class="boxed">
+        <h3>Bahan</h3>
+        <div class="box1">
             <div id="bahan">
 
                 <!-- <label for="interlock">Interlock</label> -->
-                <label for="intrlck"><input type="radio" id="intrlck" value="interlock" name="bahan">Interlock</label>
+                <label for="intrlck"><input type="radio" id="intrlck" value="interlock" name="bahan">Interlock <br>  <img src="./img/interlock.png" alt=""></label>
                 <br>
                 <!-- <label for="adidas">Adidas</label> -->
-                <label for="adds"><input type="radio" id="adds" value="adidas" name="bahan">Adidas</label>
+                <label for="adds"><input type="radio" id="adds" value="adidas" name="bahan">Adidas <br> <img src="./img/adidas.png" alt=""> </label>
                 <br>
                 <!-- <label for="elite uv milano">Elite uv milano</label> -->
-                <label for="eum"><input type="radio" id="eum" value="elite uv milano" name="bahan">Elite uv
-                    milano</label>
+                <label for="eum"><input type="radio" id="eum" value="elite uv milano" name="bahan">
+                    Milano <br> <img src="./img/milano.png" alt=""> </label>
                 <br>
                 <!-- <label for="reguler">Reguler</label> -->
-                <label for="reg"><input type="radio" id="reg" value="reguler" name="bahan">Reguler</label>
+                <label for="reg"><input type="radio" id="reg" value="reguler" name="bahan">Reguler <br> <img src="./img/regular.png" alt=""> </label>
                 <br>
                 <!-- <label for="standard">Standard</label> -->
-                <label for="stdrd"><input type="radio" id="stdrd" value="standart" name="bahan">Standard</label>
+                <label for="stdrd"><input type="radio" id="stdrd" value="standart" name="bahan">Standard <br> <img src="./img/standrad.png" alt=""> </label>
                 <br>
                 
             </div>
         </div>
 
-        <h3>Custom Kaos</h3>
-        <div class="boxe">
+        
+        <div class="box2">
             <div id="model">
-
+                <h3>Custom Kaos</h3>
                 <!-- <label for="no sleeve">No sleeve</label> -->
                 <label for="nos"><input type="radio" name="model" id="nos" value="no sleeve">No sleeve</label>
                 <br>
@@ -66,12 +67,8 @@
                     kancing</label>
                 <br>
             </div>
-        </div>
-
-        <h3>Size</h3>
-        <div class="box">
             <div id="size">
-
+                <h3>Size</h3>
                 <!-- <label for="no sleeve">No sleeve</label> -->
                 <label for="xes"><input type="radio" name="size" id="xes" value="XS">XS</label>
                 <br>
@@ -94,10 +91,13 @@
         </div>
 
         
-        <input type="submit" value="Pilih" onclick="submitBahan(bahan)">
+       
+
+        
+        <input id="tombol-pilih" type="submit" value="Pilih" onclick="submitBahan(bahan)">
         
     </form>
-    <button class="button" onclick="goToCart()">Lanjut</button>
+    <button id="tombol-lanjut" class="button" onclick="goToCart()">Lanjut &#128722</button>
 </body>
 <script src="catalogue.js"></script>
 
