@@ -18,7 +18,13 @@
     </div>
     <hr>
     <h3>Bahan</h3>
-    <form onsubmit="goToCart(event)">
+    <form onsubmit="pilihProperti(event)">
+        <div>
+            <label for="desain">Pilih Desain</label>
+            <select name="desain" id="desain">
+              
+            </select> 
+        </div>
         <div class="boxed">
             <div id="bahan">
 
@@ -88,22 +94,11 @@
             </div>
         </div>
 
-        <h3>Design</h3>
-        <div class="bo">
-            <div id="design">
-
-                <!-- <label for="no sleeve">No sleeve</label> -->
-                <label for="xes"><input type="radio" name="design" id="xes" value="Design 1"><img style="width: 100px; height: auto;" src="img/short-sleeve-modified.png" alt=""> <br> Design 1</label>
-                <br>
-                <!-- <label for="long sleeve">Long sleeve</label> -->
-                <label for="es"><input type="radio" name="design" id="es" value="Design 2"> <img style="width: 100px; height: auto;" src="img/long-sleeve-modified.png" alt=""> <br> Design 2</label>
-                <br>
-                
-            </div>
-        </div>
+        
         <input type="submit" value="Pilih" onclick="submitBahan(bahan)">
-        <button class="button">Lanjut</button>
+        
     </form>
+    <button class="button" onclick="goToCart()">Lanjut</button>
 </body>
 <script src="catalogue.js"></script>
 
