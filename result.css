@@ -1,0 +1,71 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("asdf.jpg");
+  background-size: 80%;
+}
+
+h3{
+  background-color: #d4d7dfb8;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  color: rgb(4, 78, 75); 
+  font-family: 'Trocchi', serif; 
+  font-size: 20px; 
+  font-weight: bold; 
+  line-height: 48px; 
+  display: block;
+}
+
+h1{
+  color: rgb(4, 78, 75); 
+  font-family: 'Trocchi', serif; 
+  font-size: 20px; 
+  font-weight: bold; 
+  line-height: 48px; 
+  display: block;
+  
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;  
+}
+
+/* Container */
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+.box-container {
+  background-color: #d4d7dfb8;
+  padding: 40px;
+  border-radius: 20px;
+  margin: 100px;
+}
+
+/* Text Style */
+.text-center {
+  text-align: center;
+}
+.title {
+   color: rgb(4, 78, 75); 
+   font-family: 'Trocchi', serif; 
+   font-size: 40px; 
+   font-weight: bold; 
+   line-height: 48px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
