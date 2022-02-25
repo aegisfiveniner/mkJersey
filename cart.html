@@ -26,8 +26,9 @@
           <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col"></th>
-                <th scope="col">Product</th>
+                <th scope="col">Design</th>
+                <th scope="col">Material</th>
+                <th scope="col">Model</th>
                 <th scope="col">Size</th>
                 <th scope="col" class="text-center">Quantity</th>
                 <th></th>
@@ -36,41 +37,25 @@
                 <th></th>
               </tr>
             </thead>
-            <tbody>
+            <tbody id="inputPesanan">
+            </tbody>
+            <tfoot>
               <tr>
-                <td><img class="product-image" src="img\short-sleeve-modified.png" alt=""></td>
-                <td>MK Standart Short Sleeve</td>
-                <td>S</td>
-                <td><input id="short-qty" class="form-control" type="text" value="1"></td>
-                <td><button id="plus-btn-incre-short"><img class="plus-img" src="img\plus-solid.svg" alt=""></button><button><img class="minus-img" src="img\minus-solid.svg" alt=""></button></td>
-                <td class="text-right">Rp 120.000</td>
-                <td id="total-price-short">Rp 120.000</td>
-                <td class="text-right"><button class="btn btn-outline-light"><img class="trash-image" src="img\trash-can-solid.svg" alt=""></button></td>
-              </tr>
-              <tr>
-                <td><img class="product-image" src="img\long-sleeve-modified.png" alt=""></td>
-                <td>MK Standart Long Sleeve</td>
-                <td>M</td>
-                <td><input class="form-control" type="text" value="1"></td>
-                <td><button><img class="plus-img" src="img\plus-solid.svg" alt=""></button><button><img class="minus-img" src="img\minus-solid.svg" alt=""></button></td>
-                <td class="text-right">Rp 140.000</td>
-                <td class="total-price">Rp 140.000</td>
-                <td class="text-right"><button class="btn btn-outline-light"><img class="trash-image" src="img\trash-can-solid.svg" alt=""></button></td>
-              </tr>
-              <tr>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td>Sub-Total</td>
-                <td class="text-right">Rp 260.000</td>
+                <td id="subtotal" class="text-right">Rp 260.000</td>
                 <td></td>
               </tr>
 
               <hr class="hr-desain">
 
               <tr>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -86,11 +71,12 @@
                 <td></td>
                 <td></td>
                 <td></td>
+                <td></td>
                 <td>Total</td>
-                <td class="text-right">Rp 270.000</td>
+                <td id="totalSum" class="text-right">Rp 270.000</td>
                 <td></td>
               </tr>
-            </tbody>
+            </tfoot>  
           </table>
         </div>
       </div>
