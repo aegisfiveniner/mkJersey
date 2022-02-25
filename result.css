@@ -8,6 +8,7 @@
 body {
   background-image: url("asdf.jpg");
   background-size: 80%;
+  background-color: rgba(209, 155, 6, 0.8);
 }
 
 h3{
@@ -48,7 +49,7 @@ h1{
   width: 50%; 
 }
 .box-container {
-  background-color: #d4d7dfb8;
+  background-color:rgb(71, 68, 68);
   padding: 40px;
   border-radius: 20px;
   margin: 100px;
@@ -59,7 +60,7 @@ h1{
   text-align: center;
 }
 .title {
-   color: rgb(4, 78, 75); 
+   color:white; 
    font-family: 'Trocchi', serif; 
    font-size: 40px; 
    font-weight: bold; 
