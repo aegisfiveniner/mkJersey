@@ -72,16 +72,6 @@ forms.addEventListener("submit", function (e) {
     document.getElementById('result-alamat').innerHTML = ALAMAT;
 })
 
-// CART JS
-//   document.getElementById("plus-btn-incre-short").addEventListener("click", function(e) {
-//     e.preventDefault()
-//     let shortQty = document.getElementById("short-qty").value
-//     console.log(shortQty)
-//     shortQty+= 1
-    
-//   })
-
-
 // CATALOGUE JS
 function submitCustom(custom){
     custom.preventDefault()
@@ -131,3 +121,5 @@ function pesanBaju(bahan, size, custom, jumlah){
     total harga = ${rupiah(totalHarga)}`
     return summaryPesanan
 }
+
+
