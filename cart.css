@@ -1,5 +1,9 @@
 /* SHOPPING CART CSS */
 
+body {
+  background-color: rgb(71, 68, 68);
+}
+
 .product-image {
   width: 12%;
   height: 12%;
