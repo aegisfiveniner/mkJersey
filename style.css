@@ -127,6 +127,8 @@ button:hover {
     width: 100%
 }
 /* end of jumbotron */
+
+/* start of testimony */
 .testimony {
     display : grid;
     width: 100%;
@@ -147,6 +149,10 @@ button:hover {
     font-size: 3em;
     color: rgba(209, 155, 6, 0.8);
 }
+
+/* end of testimony */
+
+/* start of contact us */
 
 #contact-us {
     height: auto;
@@ -178,3 +184,8 @@ button:hover {
     color: rgb(209, 155, 6);
     margin-top: 100px;
 }
+
+/* end of contact us */
+
+/* CART HTML */
+
