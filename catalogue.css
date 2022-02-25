@@ -1,0 +1,40 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+
+}
+hr {
+  border-top: 3px double #8c8b8b;
+}
+h1 {
+  margin: 0;
+  padding-top: 20px;
+
+}
+
+.cata {
+  background-color: #362706;
+  color: white;
+  height: 80px;
+}
+.boxed, .box {
+  background-color: #E9E5D6;
+}
+
+.boxe, .bo{
+  background-color: #ACB992;
+}
+
+#bahan, #model{
+   text-align: left;
+   margin-left: 42%;
+}
+
+#size {
+  text-align: left;
+  margin-left: 47%;
+ }
