@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(71, 68, 68);
+
+}
+
+#design {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+    /* border: 1px solid */
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 10px;
+    background-color: rgba(209, 155, 6, 1);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto
+    
+    
+    
+}
+
+#judul {
+    color: rgba(209, 155, 6, 1);
+    display: flex;
+    justify-content: center;;
+}
+
+
+#banner {
+    background-color: rgba(209, 155, 6, 1);
+    display: flex;
+    justify-content: center;
+}
+
+#design label {
+    color: rgba(209, 155, 6, 1);
+    
+}
+
+.pilihan {
+    margin: 1rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
