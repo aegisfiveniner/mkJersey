@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div class="cata">
+    <center><h1>Catalogue</h1></center>
+    </div>
+    <h3>Bahan</h3>
+    <div class="boxed">
+    <form action="" method="">
+        
+        <!-- <label for="interlock">Interlock</label> -->
+        <label for="intrlck"><input  type="checkbox" id="intrlck" value="interlock" >Interlock</label>
+        <br>
+        <!-- <label for="adidas">Adidas</label> -->
+        <label for="adds"><input type="checkbox" id="adds" value="adidas">Adidas</label>
+        <br>
+        <!-- <label for="elite uv milano">Elite uv milano</label> -->
+        <label for="eum"><input type="checkbox" id="eum" value="elite uv milano">Elite uv milano</label>
+        <br>
+        <!-- <label for="reguler">Reguler</label> -->
+        <label for="reg"><input type="checkbox" id="reg" value="reguler">Reguler</label>
+        <br>
+        <!-- <label for="standard">Standard</label> -->
+        <label for="stdrd"><input type="checkbox" id="stdrd" value="standart">Standard</label>
+        <br>
+        <input type="submit" value="Pilih" onclick="submitBahan(bahan)">
+   </form>
+    </div>
+
+    <h3>Custom Kaos</h3>
+    <div class="boxe">
+   <form action="" method="">
+      
+       <!-- <label for="no sleeve">No sleeve</label> -->
+        <label for="nos"><input type="checkbox" id="nos" value="no sleeve">No sleeve</label>
+        <br>
+        <!-- <label for="long sleeve">Long sleeve</label> -->
+        <label for="los"><input type="checkbox" id="los" value="long sleeve">Long sleeve</label>
+        <br>
+        <!-- <label for="kerah resleting">Kerah resleting</label> -->
+        <label for="kers"><input type="checkbox" id="kers" value="kerah resleting">Kerah resleting</label>
+        <br>
+        <!-- <label for="kerah kancing">Kerah kancing</label> -->
+        <label for="keran"><input type="checkbox" id="keran" value="kerah kancing">Kerah kancing</label>
+        <br>
+        <input type="submit" value="Pilih" onclick="submitCustom(custom)">
+   </form>
+    </div>
+
+    <h3>Size</h3>
+    <div class="box">
+   <form action="" method="">
+    
+    <!-- <label for="no sleeve">No sleeve</label> -->
+     <label for="xes"><input type="checkbox" id="xes" value="XS">XS</label>
+     <br>
+     <!-- <label for="long sleeve">Long sleeve</label> -->
+     <label for="es"><input type="checkbox" id="es" value="S">S</label>
+     <br>
+     <!-- <label for="kerah resleting">Kerah resleting</label> -->
+     <label for="med"><input type="checkbox" id="med" value="M">M</label>
+     <br>
+     <!-- <label for="kerah kancing">Kerah kancing</label> -->
+     <label for="lar"><input type="checkbox" id="lar" value="L">L</label>
+     <br>
+     <label for="xl"><input type="checkbox" id="xl" value="XL">XL</label>
+     <br>
+     <label for="xxl"><input type="checkbox" id="xxl" value="XXL">XXL</label>
+     <br>
+     <label for="3xl"><input type="checkbox" id="3xl" value="3XL">3XL</label>
+     <br>
+     <input type="submit" value="Pilih" onclick="submitSize(size)">
+</form>
+</div>
+<button class="button">Lanjut</button>
+</body>
+<script src="cart.js"></script>
+</html>
